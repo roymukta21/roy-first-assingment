@@ -37,7 +37,7 @@ body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
 .nav-btn:hover, .main-btn:hover { background-color: #0000ff; }
 
-.hero { text-align: center; padding: 100px 20px 60px; background-color: #e6e9ff; }
+.hero { text-align: center; padding: 100px 20px 60px; }
 
 .preview { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 60px 20px; background-color: #fff; }
 
@@ -142,6 +142,8 @@ input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; fon
   padding: 0 4px;
   font-size: 13px;
   color: #333;
+  display: inline-block;
+  text-align: left;
 }
 
 
